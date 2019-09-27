@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import liverpoolLogo from './../../Resources/images/team_icons/liverpool.png';
+import liverpoolLogo from './../../Resources/images/team_icons/logo2.png';
 
 export const LfcLogo = (props) => {
     const template = <div
@@ -10,7 +10,7 @@ export const LfcLogo = (props) => {
                                 height: props.height,                               
                             }}
     >
-        <img src={liverpoolLogo} alt="liverpool" style={{width:70%}} />
+        <img src={liverpoolLogo} alt="liverpool" style={{width:"100%"}} />
     </div>
 
     if (props.link) {
