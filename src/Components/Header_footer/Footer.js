@@ -7,7 +7,6 @@ const Footer = () => {
                 <LfcLogo 
                     width="70px"
                     height="70px"
-                    link={true}
                     linkTo="/"
                 />
             </div>

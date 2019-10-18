@@ -4,13 +4,13 @@ import liverpoolLogo from './../../Resources/images/team_icons/logo2.png';
 
 export const LfcLogo = (props) => {
     const template = <div
-                            className="img_cover"
-                            style={{
-                                width: props.width,
-                                height: props.height,                               
-                            }}
+        className="img_cover"
+        style={{
+            width: props.width,
+            height: props.height,
+        }}
     >
-        <img src={liverpoolLogo} alt="liverpool" style={{width:"100%"}} />
+        <img src={liverpoolLogo} alt="liverpool" style={{ width: "100%" }} />
     </div>
 
     if (props.link) {
