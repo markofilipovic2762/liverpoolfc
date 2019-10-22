@@ -4,6 +4,8 @@
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.4.2",
+    "array-filter": "^1.0.0",
+    "array-map": "0.0.0",
     "d3-ease": "^1.0.5",
     "firebase": "^6.6.1",
     "react": "^16.9.0",
