@@ -50,7 +50,7 @@ class Enroll extends Component {
     resetFormSuccess(type) {
         const newFormdata = {...this.state.formData};
 
-        for (let key in newFormdata) {
+        for (var key in newFormdata) {
             newFormdata[key].value = '';
             newFormdata[key].valid = false;
             newFormdata[key].validationMessage = '';
@@ -77,7 +77,7 @@ class Enroll extends Component {
         let dataToSubmit = {};
         let formIsValid = true;
 
-        for (let key in this.state.formData) {
+        for (var key in this.state.formData) {
             dataToSubmit[key] = this.state.formData[key].value;
             formIsValid = this.state.formData[key].valid && formIsValid;
         }
