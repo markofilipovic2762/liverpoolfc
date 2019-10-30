@@ -12,7 +12,7 @@ const Header = () => {
         <AppBar
             position= "fixed"
             style = {{
-                backgroundColor: '#e53935',
+                backgroundColor: '#f44336',
                 boxShadow: 'none',
                 padding: '10px 0',
                 borderBottom: '1px solid #00285e'
@@ -24,10 +24,10 @@ const Header = () => {
                     </div>
                 </div>
                 <Link to="/the_team"> 
-                    <Button color="inherit">The team</Button>
+                    <Button color="inherit" size="large">The team</Button>
                 </Link>
                 <Link to="/the_matches"> 
-                    <Button color="inherit">Matches</Button>
+                    <Button color="inherit" size="large">Matches</Button>
                 </Link>
             </ToolBar>
             
